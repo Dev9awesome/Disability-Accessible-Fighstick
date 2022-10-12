@@ -8,7 +8,8 @@ char keys[] = {'a', 'b', 'c'};
 
 void setup() {
 
-  Keyboard.begin()
+  Keyboard.begin();
+  Serial.begin(9600);
  
 }
 
